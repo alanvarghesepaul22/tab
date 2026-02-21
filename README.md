@@ -93,24 +93,24 @@ The Pomodoro Technique (25-minute focus sessions + 5-minute breaks) has been pro
 ## Screenshots
 
 <p align="center">
-  <img src="/screenshot1.png" alt="Focus Timer - Desktop" width="400" />
+  <img src="/public/screenshot1.png" alt="Focus Timer - Desktop" width="400" />
 </p>
 <p align="center"><em>Focus Timer - Desktop</em></p>
 
 <p align="center">
-  <img src="/screenshot2.png" alt="Settings Modal - Desktop" width="400" />
+  <img src="/public/screenshot2.png" alt="Settings Modal - Desktop" width="400" />
 </p>
 <p align="center"><em>Settings Modal - Desktop</em></p>
 
 <p align="center">
-  <img src="/screenshot3.png" alt="Break Modal - Desktop" width="400" />
+  <img src="/public/screenshot3.png" alt="Break Modal - Desktop" width="400" />
 </p>
 <p align="center"><em>Break Modal - Desktop</em></p>
 
 <p align="center">
-  <img src="/screenshot4.png" alt="Focus Timer - Mobile" width="200" />
-  <img src="/screenshot5.png" alt="Settings Modal - Mobile" width="200" />
-  <img src="/screenshot6.png" alt="Break Modal - Mobile" width="200" />
+  <img src="/public/screenshot4.png" alt="Focus Timer - Mobile" width="200" />
+  <img src="/public/screenshot5.png" alt="Settings Modal - Mobile" width="200" />
+  <img src="/public/screenshot6.png" alt="Break Modal - Mobile" width="200" />
 </p>
 <p align="center"><em>Mobile Views (Timer, Settings, Break Modal)</em></p>
 
