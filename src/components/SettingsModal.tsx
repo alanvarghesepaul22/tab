@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, memo } from 'react';
-import { X, Bell, Clock, Briefcase, Coffee, Settings } from 'lucide-react';
+import { X, Bell, Briefcase, Coffee, Settings } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Settings as SettingsType } from '@/lib/constants';
 
@@ -85,33 +85,6 @@ export const SettingsModal = memo(function SettingsModal({ isOpen, onClose, sett
 
               {/* Scrollable Content */}
               <div className="flex-1 overflow-y-auto p-6 space-y-6 scrollbar-hide bg-transparent">
-                <div className="space-y-4">
-                  <div className="flex items-center gap-2 text-neutral-700 dark:text-neutral-300 font-medium">
-                    <Clock size={18} />
-                    <h3>Daily Schedule</h3>
-                  </div>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="space-y-1.5">
-                      <label className="text-xs font-semibold text-neutral-500 dark:text-neutral-400 uppercase tracking-wider">Start Time</label>
-                      <input 
-                        type="time" 
-                        value={localSettings.workStart}
-                        onChange={(e) => handleChange('workStart', e.target.value)}
-                        className="w-full px-4 py-3 bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-neutral-400/50 focus:border-neutral-500 transition-all text-neutral-700 dark:text-neutral-300 font-medium"
-                      />
-                    </div>
-                    <div className="space-y-1.5">
-                      <label className="text-xs font-semibold text-neutral-500 dark:text-neutral-400 uppercase tracking-wider">End Time</label>
-                      <input 
-                        type="time" 
-                        value={localSettings.workEnd}
-                        onChange={(e) => handleChange('workEnd', e.target.value)}
-                        className="w-full px-4 py-3 bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-neutral-400/50 focus:border-neutral-500 transition-all text-neutral-700 dark:text-neutral-300 font-medium"
-                      />
-                    </div>
-                  </div>
-                </div>
-
                 <div className="space-y-4">
                   <div className="flex items-center gap-2 text-neutral-700 dark:text-neutral-300 font-medium">
                     <Briefcase size={18} />

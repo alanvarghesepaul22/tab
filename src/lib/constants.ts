@@ -1,6 +1,4 @@
 export const DEFAULT_SETTINGS = {
-  workStart: '09:00',
-  workEnd: '17:00',
   focusDuration: 25,
   breakDuration: 5,
   soundEnabled: true,

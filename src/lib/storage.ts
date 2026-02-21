@@ -12,8 +12,6 @@ export function getSettings(): Settings {
     const parsed = JSON.parse(stored);
     
     const validated: Settings = {
-      workStart: parsed.workStart || DEFAULT_SETTINGS.workStart,
-      workEnd: parsed.workEnd || DEFAULT_SETTINGS.workEnd,
       focusDuration: Math.max(1, Math.min(120, parsed.focusDuration || DEFAULT_SETTINGS.focusDuration)) as Settings['focusDuration'],
       breakDuration: Math.max(1, Math.min(30, parsed.breakDuration || DEFAULT_SETTINGS.breakDuration)) as Settings['breakDuration'],
       soundEnabled: typeof parsed.soundEnabled === 'boolean' ? parsed.soundEnabled : DEFAULT_SETTINGS.soundEnabled,
